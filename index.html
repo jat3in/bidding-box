@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bidding Box</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="v3_8">
+            <div class="scaleDown">
+            <p class="v5_39" style="font-weight: bolder;">Bridge Bidding Game</p>
+            <div class="v1_3">
+              
+            </div>
+            <!-- <div class="v3_9">
+
+            </div> -->
+            <div class="v3_27">
+
+            </div>
+            <div class="v3_10 cards_number" style="text-align: center;">
+              <button id="one" value="1" >1</button>
+            </div>
+            <div class="v3_22 cards_icon">
+                <button id="nt" value="NT" >NT</button>
+            </div>
+            <div class="v3_23 cards_icon"><button id="spade" value="♠" style="font-size: 20px;">♠</i></button></div>
+            <div class="v3_24 cards_icon"><button id="heart" value="❤️"><i class="fa fa-heart" aria-hidden="true"></i></button></div>
+            <div class="v3_25 cards_icon"><button id="diamond" value="♦"><i class="fa fa-diamond" aria-hidden="true"></i></button></div>
+            <div class="v3_26 cards_icon"><button id="tree" value="♣" style="font-size: 20px;">♣</button></div>
+            <div class="v3_11 cards_number"><button id="two" value="2" >2</button></div>
+            <div class="v3_12 cards_number"><button id="three" value="3">3</button></div>
+            <div class="v3_13 cards_number"><button id="four" value="4">4</button></div>
+            
+            <div class="v3_14 cards_x"><button id="x" style="background: red; color: white;">X</button></div>
+            <div class="v3_15 cards_x"><button id="xx" style="background: blue; color: white;">XX</button></div>
+            <div class="v3_16 cards_number"><button id="five" value="5">5</button></div>
+            <div class="v3_17 cards_number"><button id="six" value="6">6</button></div>
+            <div class="v3_18 cards_number"><button id="seven" value="7">7</button></div>
+            <div class="v3_19 cards_pass"><button id="pass" style="background: green; color: white;">pass</button></div>
+            <div class="v3_20 cards_fun" ><button id="alert" style="background: yellow; color: black; ">alert</button></div>
+            <div class="v3_21 cards_fun" ><button id="stop" style="background: red;">stop</button></div>
+            <div class="v3_28 cards_out"><h3 id="out_1" style="background: lightblue; color: white;"></h3></div>
+            <div class="v3_29 cards_out"><h3 id="out_2" style="background: blue; color: white;"></h3></div>
+            <div class="v3_30 cards_out"><h3 id="out_3" style="background: green; color: white;"></h3></div>
+            <div class="v3_91"><button id="pre" style=" cursor: pointer;   font-size: 25px;
+            border-radius: 50%;
+                position: relative;
+                left: 60px;
+                top: 10px;"><i class="fa fa-chevron-circle-left" aria-hidden="true" ></i></button>
+            </div>
+            <div class="v9_23"><button id="ford" style=" cursor: pointer;   font-size: 25px;
+            border-radius: 50%;
+                position: relative;
+                top: 10px;
+                left: 10px;"><i class="fa fa-chevron-circle-right" aria-hidden="true" ></i></button>
+            </div>
+            <div class="v12_6"><h3 id="play" style="font-size: 25px;"><i class="fa fa-thumbs-up"></i></h3></div>
+            <button class="v10 btn_trigger" id="w" value="W">W</button>
+            <button class="v11 btn_trigger" id="n" value="N">N</button>
+            <button class="v12 btn_trigger" id="s" value="S">S</button>
+            <button class="v13 btn_trigger" id="e" value="E">E</button>
+            <div class="v3_31">
+             <table class="output_cards">
+                <tr>
+                    <th>W</th>
+                    <th>N</th>
+                    <th>E</th>
+                    <th>S</th>
+                    
+                </tr>
+                <tr class="row_table">
+                    <td id="row_value_one"> </td>
+                    <td id="row_value_two"> </td>
+                    <td id="row_value_three"></td>
+                    <td id="row_value_four"> </td>
+                </tr>
+                <tr class="row_table">
+                    <td id="row_value_five" > </td>
+                    <td id="row_value_six"> </td>
+                    <td id="row_value_seven"></td>
+                    <td id="row_value_8"> </td>
+                </tr>
+                <tr class="row_table">
+                    <td id="row_value_9"> </td>
+                    <td id="row_value_10"> </td>
+                    <td id="row_value_11"></td>
+                    <td id="row_value_12"> </td>
+                </tr>
+                <tr class="row_table">
+                    <td id="row_value_13"> </td>
+                    <td id="row_value_14"> </td>
+                    <td id="row_value_15"></td>
+                    <td id="row_value_16"> </td>
+                </tr>
+                <tr class="row_table">
+                    <td id="row_value_17"> </td>
+                    <td id="row_value_18"> </td>
+                    <td id="row_value_19"></td>
+                    <td id="row_value_20"> </td>
+                </tr>
+               
+            </div>
+           
+          </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
+  
